@@ -1,0 +1,42 @@
+/*Con estos parámetros, experimenté para ver el propósito de cada función y números en los diseños.*/
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  background: #f4f7fb;
+  color: #253238;
+}
+header {
+  background: linear-gradient(120deg, #000, #156b8d);
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+main{
+    max-width:960px;
+    margin:0 auto;
+    padding:60px 20px;
+}
+
+section{
+    background: #fff;
+    border-radius:12px;
+    padding:24px;
+    margin-bottom:24px;
+    box-shadow:0 10px 25px rgba(15,23,42,.08);
+
+}
+
+section h2{
+    margin-top:0px;
+    color:#4B6f79;
+}
+
+footer{
+    padding:24px;
+    text-align:center;
+    background: #e8edf4;
+    font-size:.9rem;
+}

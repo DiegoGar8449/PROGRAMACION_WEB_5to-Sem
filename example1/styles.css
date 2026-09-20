@@ -1,0 +1,36 @@
+/*1er. Ejemplo del curso HTML and CSS*/
+
+body{
+    font-family:"Segoe UI", sans-serif;
+    background: #f2f6fb;
+    margin:0;
+}
+
+main{
+    max-width:600px;
+    margin:60px auto;
+    background:#ffffff;
+    padding:32px;
+    border-radius:8px;
+}
+
+h1{
+    color:#5683c7;
+    margin-top:0;
+}
+
+mark{
+    background:#fffd91;
+}
+
+button{
+    background:#fff;
+    color:#000000;
+    border:none;
+    padding:12px 24px;
+    border-radius:999px;
+    cursor:pointer;
+}
+button:hover{ /**Hover da efecto burbuja a los button**/
+    background:#7edef7;
+}
